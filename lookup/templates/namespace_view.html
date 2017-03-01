@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>{{ data.namespace }}</h2>
+<ul>
+    {% for identifier in data.identifiers %}
+    <li><a href="{% url "id_single" identifier.code %}">{{ identifier.code }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock content %}

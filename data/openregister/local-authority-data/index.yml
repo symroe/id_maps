@@ -1,0 +1,17 @@
+---
+local-custodian:
+  description: AddressBase™ / Geoplace LLP address custodian names and codes
+opendatacommunities:
+  description: Department for Communities and Local Government's OpenDataCommunities.org administrative geography codes based on data from ONS
+food-authority:
+  description: Local authority codes from the Food Standards Agency ratings data
+edubase:
+  description: Edubase local authority codes
+snac:
+  description: ONS former hierarchical Standard Names and Codes (SNAC)
+os:
+  description: Ordnance Survey county and other codes found in os-open-names data
+gss:
+  description: Office of National Statistics GSS coding system codes
+gaz50k:
+  description: 'Ordnance Survey 50K Gazetteer county codes'

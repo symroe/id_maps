@@ -1,0 +1,5 @@
+django
+requests
+git+https://github.com/miracle2k/python-glob2.git
+psycopg2
+

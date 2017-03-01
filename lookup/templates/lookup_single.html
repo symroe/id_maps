@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+<h2>{{ data.identifier }}</h2>
+<dl>
+    {% for k,v in data.same_as %}
+        <dt><a href="{% url "lookup_namespace" k %}">{{ k }}</a></dt>
+        <dd><a href="{% url "id_single" v %}">{{ v }}</a></dd>
+
+    {% endfor %}
+</dl>
+
+{% endblock content %}
